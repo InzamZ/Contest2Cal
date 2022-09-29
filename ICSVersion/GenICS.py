@@ -12,7 +12,7 @@ def GetContestList(url: str = "https://algcontest.rainng.com/") -> list:
     return []
 
 
-def GenerateICS(contestList: list, path: str = "./ICSVersion/sample.ics", oldCal: Calendar = None) -> str:
+def GenerateICS(contestList: list, path: str = "./ICSVersion/basic.ics", oldCal: Calendar = None) -> str:
     cal = oldCal
     uid2event = {}
     if cal:
@@ -22,7 +22,8 @@ def GenerateICS(contestList: list, path: str = "./ICSVersion/sample.ics", oldCal
     else:
         cal = Calendar()
         cal.add('VERSION', '2.0')
-        cal.add('prodid', '各大OJ比赛日历ICS')
+        cal.add('PRODID', '各大OJ比赛日历ICS')
+        cal.add('CALSCALE', 'GREGORIAN')
         cal.add('X-WR-CALNAME', '各大OJ比赛日历ICS')
         cal.add('X-APPLE-CALENDAR-COLOR', '#540EB9')
         cal.add('X-WR-TIMEZONE', 'Asia/Shanghai')
@@ -60,7 +61,7 @@ if __name__ == "__main__":
     data = open("./SampleData/AlgContest.json")
     cal = None
     try:
-        ics = open("./ICSVersion/sample.ics")
+        ics = open("./ICSVersion/basic.ics")
         cal = Calendar.from_ical(ics.read())
     except:
         cal = None

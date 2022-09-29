@@ -22,7 +22,6 @@ USER_ACCESS_TOKEN = os.getenv("USER_ACCESS_TOKEN")
 from api import CanlanderApiClient
 
 
-
 def GetContestList(url: str = "https://algcontest.rainng.com/") -> list:
     r = requests.get(url)
     if r.status_code == 200:

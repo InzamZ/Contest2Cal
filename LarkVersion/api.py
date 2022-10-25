@@ -76,12 +76,12 @@ class CanlanderApiClient(object):
         url = "https://open.feishu.cn/open-apis/calendar/v4/calendars/"+ TargetCalanderId+ "/events?page_size=500"
         response = requests.request("GET", url, headers=headers)
         response_dict = response.json()
-        eventFlag = []
+        eventFlag = {}
         for x in response_dict['data']['items']:
             if x['status'] == 'cancelled':
                 pass
-            elif x['summary'] not in eventFlag:
-                eventFlag.append(x['summary'])
+            elif x['summary'] not in eventFlag.keys():
+                eventFlag[x['summary']] = x['event_id']
             else:
                 headers = {
                         "Content-Type": "application/json",
@@ -93,9 +93,7 @@ class CanlanderApiClient(object):
                 sleep(1)
 
         for Contest in ContestList:
-            url = "https://open.feishu.cn/open-apis/calendar/v4/calendars/" + \
-                TargetCalanderId + "/events"
-            payload = {
+            payload = json.dumps({
                 "attendee_ability": "can_see_others",
                 "color": 4,
                 "description": Contest["oj"] + ": " + Contest["name"] + "\n" + Contest["link"] + "\n数据来源http://algcontest.rainng.com/",
@@ -116,16 +114,24 @@ class CanlanderApiClient(object):
                 },
                 "summary": Contest["oj"] + ": " + Contest["name"],
                 "visibility": "default"
-            }
+            })
             headers = {
-                "Content-Type": "application/json",
+                "Content-Type": "application/json; charset=utf-8",
                 'Authorization': "Bearer " + self.tenant_access_token
             }
-            if payload["summary"] in eventFlag:
-                continue
-            response = requests.request("POST", url, headers=headers, data=payload)
-            CanlanderApiClient._check_error_response(response)
-        
+            if Contest["oj"] + ": " + Contest["name"] in eventFlag.keys():
+                url = "https://open.feishu.cn/open-apis/calendar/v4/calendars/" + TargetCalanderId + "/events/" + eventFlag[Contest["oj"] + ": " + Contest["name"]]
+                response = requests.request("PATCH", url, headers=headers, data=payload)
+                print(response.text)
+                sleep(1)
+                CanlanderApiClient._check_error_response(response)
+            else:
+                url = "https://open.feishu.cn/open-apis/calendar/v4/calendars/" + TargetCalanderId + "/events"
+                self._authorize_tenant_access_token() 
+                response = requests.request("POST", url, headers=headers, data=payload)
+                print(response.text)
+                sleep(1)
+                CanlanderApiClient._check_error_response(response)
         
     def _authorize_tenant_access_token(self):
         # get tenant_access_token and set, implemented based on Feishu open api capability. doc link: https://open.feishu.cn/document/ukTMukTMukTM/ukDNz4SO0MjL5QzM/auth-v3/auth/tenant_access_token_internal

@@ -105,4 +105,4 @@ def SubscribeCalander():
 
 if "__main__" == __name__:
     client.update(GetContestList())
-    SubscribeCalander()
+    # SubscribeCalander()

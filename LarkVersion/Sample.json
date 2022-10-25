@@ -1,0 +1,22 @@
+{
+    "attendee_ability": "can_see_others",
+    "color": 4,
+    "description": "NowCoder: 2022牛客OI赛前集训营-提高组（第四场）\nhttps: \/\/ac.nowcoder.com/acm/contest/40648\n数据来源http:\/\/algcontest.rainng.com/",
+    "end_time": {
+        "timestamp": "1665496800",
+        "timezone": "Asia/Shanghai"
+    },
+    "free_busy_status": "busy",
+    "need_notification": false,
+    "reminders": [
+        {
+            "minutes": 60
+        }
+    ],
+    "start_time": {
+        "timestamp": "1665482400",
+        "timezone": "Asia/Shanghai"
+    },
+    "summary": "NowCoder: 2022牛客OI赛前集训营-提高组（第四场）",
+    "visibility": "default"
+}

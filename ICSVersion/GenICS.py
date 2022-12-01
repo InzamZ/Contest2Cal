@@ -1,5 +1,4 @@
 import json
-import pytz
 import requests
 from icalendar import Calendar, Event
 from datetime import datetime
@@ -12,12 +11,14 @@ def GetContestList(url: str = "https://algcontest.rainng.com/") -> list:
     return []
 
 
-def GenerateICS(contestList: list, path: str = "./ICSVersion/basic.ics", oldCal: Calendar = None) -> str:
+def GenerateICS(
+        contestList: list, path: str = "./basic.ics", oldCal: Calendar = None
+) -> str:
     cal = oldCal
     uid2event = {}
     if cal:
         for component in cal.walk():
-            if (component.name == "VEVENT"):
+            if component.name == "VEVENT":
                 uid2event[component.get('uid')] = component
     else:
         cal = Calendar()
@@ -35,20 +36,21 @@ def GenerateICS(contestList: list, path: str = "./ICSVersion/basic.ics", oldCal:
             event = uid2event[curUid]
             event['uid'] = curUid
             event['summary'] = contest['name']
-            event['dtstart'] = datetime.fromtimestamp(
-                contest['startTimeStamp'])
+            event['dtstart'] = datetime.fromtimestamp(contest['startTimeStamp'])
             event['dtend'] = datetime.fromtimestamp(contest['endTimeStamp'])
             event['dtstamp'] = datetime.utcnow()
             event['dtstamp'] = contest['link'] + " \n数据来源http://algcontest.rainng.com/"
         else:
             event.add('uid', curUid)
             event.add('summary', contest['name'])
-            event.add('dtstart', datetime.fromtimestamp(
-                contest['startTimeStamp']))
+            event.add('dtstart', datetime.fromtimestamp(contest['startTimeStamp']))
             event.add('dtend', datetime.fromtimestamp(contest['endTimeStamp']))
             event.add('dtstamp', datetime.utcnow())
             event.add(
-                'description', contest['link'] + " \n数据来源http://algcontest.rainng.com/", encode=False)
+                'description',
+                contest['link'] + " \n数据来源http://algcontest.rainng.com/",
+                encode=False,
+            )
         cal.add_component(event)
         # print(event.to_ical())
 
@@ -57,13 +59,15 @@ def GenerateICS(contestList: list, path: str = "./ICSVersion/basic.ics", oldCal:
     f.close()
 
 
-if __name__ == "__main__":
-    data = open("./SampleData/AlgContest.json")
-    cal = None
+def main():
+    data = open("../SampleData/AlgContest.json")
     try:
-        ics = open("./ICSVersion/basic.ics")
+        ics = open("./basic.ics")
         cal = Calendar.from_ical(ics.read())
-    except:
+    except FileNotFoundError:
         cal = None
-        
     GenerateICS(json.loads(data.read()), oldCal=cal)
+
+
+if __name__ == "__main__":
+    main()

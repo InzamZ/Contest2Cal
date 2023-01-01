@@ -34,15 +34,22 @@ def GenerateICS(
         event = Event()
         if curUid in uid2event.keys():
             event = uid2event[curUid]
-            event['DTSTART'] = contest['startTimeStamp']
-            event['DTEND'] = contest['endTimeStamp']
-            event['dtstamp'] = datetime.utcnow().timestamp()
+            event.add('uid', curUid)
+            event.add('summary', contest['name'])
+            event.add('dtstart', datetime.fromtimestamp(contest['startTimeStamp']))
+            event.add('dtend', datetime.fromtimestamp(contest['endTimeStamp']))
+            event.add('dtstamp', datetime.utcnow())
+            event.add(
+                'description',
+                contest['link'] + " \n数据来源http://algcontest.rainng.com/",
+                encode=False,
+            )
         else:
             event.add('uid', curUid)
             event.add('summary', contest['name'])
-            event.add('dtstart', contest['startTimeStamp'])
-            event.add('dtend', contest['endTimeStamp'])
-            event.add('dtstamp', datetime.utcnow().timestamp())
+            event.add('dtstart', datetime.fromtimestamp(contest['startTimeStamp']))
+            event.add('dtend', datetime.fromtimestamp(contest['endTimeStamp']))
+            event.add('dtstamp', datetime.utcnow())
             event.add(
                 'description',
                 contest['link'] + " \n数据来源http://algcontest.rainng.com/",

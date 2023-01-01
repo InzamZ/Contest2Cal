@@ -33,24 +33,18 @@ def GenerateICS(
         curUid = contest['name'] + str(contest['startTimeStamp'])
         event = Event()
         if curUid in uid2event.keys():
-            event = uid2event[curUid]
-            event['uid'] = curUid
-            event['summary'] = contest['name']
-            event['dtstart'] = datetime.fromtimestamp(contest['startTimeStamp'])
-            event['dtend'] = datetime.fromtimestamp(contest['endTimeStamp'])
-            event['dtstamp'] = datetime.utcnow()
-            event['description'] = contest['link'] + " \n数据来源http://algcontest.rainng.com/"
-        else:
-            event.add('uid', curUid)
-            event.add('summary', contest['name'])
-            event.add('dtstart', datetime.fromtimestamp(contest['startTimeStamp']))
-            event.add('dtend', datetime.fromtimestamp(contest['endTimeStamp']))
-            event.add('dtstamp', datetime.utcnow())
-            event.add(
-                'description',
-                contest['link'] + " \n数据来源http://algcontest.rainng.com/",
-                encode=False,
-            )
+            cal.popitem(uid2event[curUid])
+            
+        event.add('uid', curUid)
+        event.add('summary', contest['name'])
+        event.add('dtstart', datetime.fromtimestamp(contest['startTimeStamp']))
+        event.add('dtend', datetime.fromtimestamp(contest['endTimeStamp']))
+        event.add('dtstamp', datetime.utcnow())
+        event.add(
+            'description',
+            contest['link'] + " \n数据来源http://algcontest.rainng.com/",
+            encode=False,
+        )
         cal.add_component(event)
         # print(event.to_ical())
 

@@ -2,267 +2,167 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:各大OJ比赛日历ICS
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-APPLE-CALENDAR-COLOR:#540EB9
 X-WR-CALNAME:各大OJ比赛日历ICS
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 SUMMARY:「TERRA-OI」 Round1 | 年初欢乐赛
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-02 13:00:00
+DTEND:2023-01-02 17:00:00
+DTSTAMP:2023-01-01 16:58:25.222640
 UID:「TERRA-OI」 Round1 | 年初欢乐赛1672635600
 DESCRIPTION:https://www.luogu.org/contest/95289 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:牛客小白月赛65
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-06 19:00:00
+DTEND:2023-01-06 21:00:00
+DTSTAMP:2023-01-01 16:58:25.222661
 UID:牛客小白月赛651673002800
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JRKSJ 的比赛 Round 7 Div.1
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-07 13:00:00
+DTEND:2023-01-07 18:30:00
+DTSTAMP:2023-01-01 16:58:25.222680
 UID:JRKSJ 的比赛 Round 7 Div.11673067600
 DESCRIPTION:https://www.luogu.org/contest/93334 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JRKSJ 的比赛 Round 7 Div.2
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-07 13:00:00
+DTEND:2023-01-07 18:30:00
+DTSTAMP:2023-01-01 16:58:25.222698
 UID:JRKSJ 的比赛 Round 7 Div.21673067600
 DESCRIPTION:https://www.luogu.org/contest/93335 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biweekly Contest 95
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-07 22:30:00
+DTEND:2023-01-08 00:00:00
+DTSTAMP:2023-01-01 16:58:25.222716
 UID:Biweekly Contest 951673101800
 DESCRIPTION:https://leetcode.com/contest/biweekly-contest-95 \n数据来
  源http://algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Weekly Contest 327
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-08 10:30:00
+DTEND:2023-01-08 12:00:00
+DTSTAMP:2023-01-01 16:58:25.222734
 UID:Weekly Contest 3271673145000
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-327 \n数据来源
  http://algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营1
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-16 13:00:00
+DTEND:2023-01-16 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222774
 UID:2023牛客寒假算法基础集训营11673845200
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营2
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-18 13:00:00
+DTEND:2023-01-18 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222793
 UID:2023牛客寒假算法基础集训营21674018000
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营3
-DTSTART:None
-DTEND:None
-DTSTAMP:None
+DTSTART:2023-01-20 13:00:00
+DTEND:2023-01-20 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222825
 UID:2023牛客寒假算法基础集训营31674190800
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:「TERRA-OI」 Round1 | 年初欢乐赛
-DTSTART:2023-01-02 05:00:00
-DTEND:2023-01-02 09:00:00
-DTSTAMP:https://www.luogu.org/contest/95289 \n数据来源http://algcontes
- t.rainng.com/
+DTSTART:2023-01-02 13:00:00
+DTEND:2023-01-02 17:00:00
+DTSTAMP:2023-01-01 16:58:25.222640
 UID:「TERRA-OI」 Round1 | 年初欢乐赛1672635600
 DESCRIPTION:https://www.luogu.org/contest/95289 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:牛客小白月赛65
-DTSTART:2023-01-06 11:00:00
-DTEND:2023-01-06 13:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http://alg
- contest.rainng.com/
+DTSTART:2023-01-06 19:00:00
+DTEND:2023-01-06 21:00:00
+DTSTAMP:2023-01-01 16:58:25.222661
 UID:牛客小白月赛651673002800
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JRKSJ 的比赛 Round 7 Div.1
-DTSTART:2023-01-07 05:00:00
-DTEND:2023-01-07 10:30:00
-DTSTAMP:https://www.luogu.org/contest/93334 \n数据来源http://algcontes
- t.rainng.com/
+DTSTART:2023-01-07 13:00:00
+DTEND:2023-01-07 18:30:00
+DTSTAMP:2023-01-01 16:58:25.222680
 UID:JRKSJ 的比赛 Round 7 Div.11673067600
 DESCRIPTION:https://www.luogu.org/contest/93334 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JRKSJ 的比赛 Round 7 Div.2
-DTSTART:2023-01-07 05:00:00
-DTEND:2023-01-07 10:30:00
-DTSTAMP:https://www.luogu.org/contest/93335 \n数据来源http://algcontes
- t.rainng.com/
+DTSTART:2023-01-07 13:00:00
+DTEND:2023-01-07 18:30:00
+DTSTAMP:2023-01-01 16:58:25.222698
 UID:JRKSJ 的比赛 Round 7 Div.21673067600
 DESCRIPTION:https://www.luogu.org/contest/93335 \n数据来源http://algco
  ntest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Biweekly Contest 95
-DTSTART:2023-01-07 14:30:00
-DTEND:2023-01-07 16:00:00
-DTSTAMP:https://leetcode.com/contest/biweekly-contest-95 \n数据来源htt
- p://algcontest.rainng.com/
+DTSTART:2023-01-07 22:30:00
+DTEND:2023-01-08 00:00:00
+DTSTAMP:2023-01-01 16:58:25.222716
 UID:Biweekly Contest 951673101800
 DESCRIPTION:https://leetcode.com/contest/biweekly-contest-95 \n数据来
  源http://algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Weekly Contest 327
-DTSTART:2023-01-08 02:30:00
-DTEND:2023-01-08 04:00:00
-DTSTAMP:https://leetcode.com/contest/weekly-contest-327 \n数据来源http
- ://algcontest.rainng.com/
+DTSTART:2023-01-08 10:30:00
+DTEND:2023-01-08 12:00:00
+DTSTAMP:2023-01-01 16:58:25.222734
 UID:Weekly Contest 3271673145000
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-327 \n数据来源
  http://algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营1
-DTSTART:2023-01-16 05:00:00
-DTEND:2023-01-16 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http://alg
- contest.rainng.com/
+DTSTART:2023-01-16 13:00:00
+DTEND:2023-01-16 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222774
 UID:2023牛客寒假算法基础集训营11673845200
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营2
-DTSTART:2023-01-18 05:00:00
-DTEND:2023-01-18 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http://alg
- contest.rainng.com/
+DTSTART:2023-01-18 13:00:00
+DTEND:2023-01-18 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222793
 UID:2023牛客寒假算法基础集训营21674018000
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http:/
  /algcontest.rainng.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2023牛客寒假算法基础集训营3
-DTSTART:2023-01-20 05:00:00
-DTEND:2023-01-20 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http://alg
- contest.rainng.com/
-UID:2023牛客寒假算法基础集训营31674190800
-DESCRIPTION:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http:/
- /algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:「TERRA-OI」 Round1 | 年初欢乐赛
-DTSTART:2023-01-02 05:00:00
-DTEND:2023-01-02 09:00:00
-DTSTAMP:https://www.luogu.org/contest/95289 \n数据来源http://algcontes
- t.rainng.com/
-UID:「TERRA-OI」 Round1 | 年初欢乐赛1672635600
-DESCRIPTION:https://www.luogu.org/contest/95289 \n数据来源http://algco
- ntest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:牛客小白月赛65
-DTSTART:2023-01-06 11:00:00
-DTEND:2023-01-06 13:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http://alg
- contest.rainng.com/
-UID:牛客小白月赛651673002800
-DESCRIPTION:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http:/
- /algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:JRKSJ 的比赛 Round 7 Div.1
-DTSTART:2023-01-07 05:00:00
-DTEND:2023-01-07 10:30:00
-DTSTAMP:https://www.luogu.org/contest/93334 \n数据来源http://algcontes
- t.rainng.com/
-UID:JRKSJ 的比赛 Round 7 Div.11673067600
-DESCRIPTION:https://www.luogu.org/contest/93334 \n数据来源http://algco
- ntest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:JRKSJ 的比赛 Round 7 Div.2
-DTSTART:2023-01-07 05:00:00
-DTEND:2023-01-07 10:30:00
-DTSTAMP:https://www.luogu.org/contest/93335 \n数据来源http://algcontes
- t.rainng.com/
-UID:JRKSJ 的比赛 Round 7 Div.21673067600
-DESCRIPTION:https://www.luogu.org/contest/93335 \n数据来源http://algco
- ntest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Biweekly Contest 95
-DTSTART:2023-01-07 14:30:00
-DTEND:2023-01-07 16:00:00
-DTSTAMP:https://leetcode.com/contest/biweekly-contest-95 \n数据来源htt
- p://algcontest.rainng.com/
-UID:Biweekly Contest 951673101800
-DESCRIPTION:https://leetcode.com/contest/biweekly-contest-95 \n数据来
- 源http://algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Weekly Contest 327
-DTSTART:2023-01-08 02:30:00
-DTEND:2023-01-08 04:00:00
-DTSTAMP:https://leetcode.com/contest/weekly-contest-327 \n数据来源http
- ://algcontest.rainng.com/
-UID:Weekly Contest 3271673145000
-DESCRIPTION:https://leetcode.com/contest/weekly-contest-327 \n数据来源
- http://algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2023牛客寒假算法基础集训营1
-DTSTART:2023-01-16 05:00:00
-DTEND:2023-01-16 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http://alg
- contest.rainng.com/
-UID:2023牛客寒假算法基础集训营11673845200
-DESCRIPTION:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http:/
- /algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2023牛客寒假算法基础集训营2
-DTSTART:2023-01-18 05:00:00
-DTEND:2023-01-18 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http://alg
- contest.rainng.com/
-UID:2023牛客寒假算法基础集训营21674018000
-DESCRIPTION:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http:/
- /algcontest.rainng.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2023牛客寒假算法基础集训营3
-DTSTART:2023-01-20 05:00:00
-DTEND:2023-01-20 10:00:00
-DTSTAMP:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http://alg
- contest.rainng.com/
+DTSTART:2023-01-20 13:00:00
+DTEND:2023-01-20 18:00:00
+DTSTAMP:2023-01-01 16:58:25.222825
 UID:2023牛客寒假算法基础集训营31674190800
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http:/
  /algcontest.rainng.com/

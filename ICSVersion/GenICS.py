@@ -12,7 +12,7 @@ def GetContestList(url: str = "https://algcontest.rainng.com/") -> list:
 
 
 def GenerateICS(
-        contestList: list, path: str = "./basic.ics", oldCal: Calendar = None
+        contestList: list, path: str = "./ICSVersion/Contests.ics", oldCal: Calendar = None
 ) -> str:
     cal = oldCal
     uid2event = {}
@@ -60,13 +60,13 @@ def GenerateICS(
 
 
 def main():
-    data = open("../SampleData/AlgContest.json")
+    data = GetContestList()
     try:
-        ics = open("./basic.ics")
+        ics = open("./ICSVersion/Contests.ics")
         cal = Calendar.from_ical(ics.read())
     except FileNotFoundError:
         cal = None
-    GenerateICS(json.loads(data.read()), oldCal=cal)
+    GenerateICS(data, oldCal=cal)
 
 
 if __name__ == "__main__":

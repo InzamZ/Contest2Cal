@@ -8,6 +8,87 @@ X-WR-CALNAME:各大OJ比赛日历ICS
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 SUMMARY:「TERRA-OI」 Round1 | 年初欢乐赛
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:「TERRA-OI」 Round1 | 年初欢乐赛1672635600
+DESCRIPTION:https://www.luogu.org/contest/95289 \n数据来源http://algco
+ ntest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客小白月赛65
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:牛客小白月赛651673002800
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/49888 \n数据来源http:/
+ /algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JRKSJ 的比赛 Round 7 Div.1
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:JRKSJ 的比赛 Round 7 Div.11673067600
+DESCRIPTION:https://www.luogu.org/contest/93334 \n数据来源http://algco
+ ntest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JRKSJ 的比赛 Round 7 Div.2
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:JRKSJ 的比赛 Round 7 Div.21673067600
+DESCRIPTION:https://www.luogu.org/contest/93335 \n数据来源http://algco
+ ntest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biweekly Contest 95
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:Biweekly Contest 951673101800
+DESCRIPTION:https://leetcode.com/contest/biweekly-contest-95 \n数据来
+ 源http://algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Weekly Contest 327
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:Weekly Contest 3271673145000
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-327 \n数据来源
+ http://algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2023牛客寒假算法基础集训营1
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:2023牛客寒假算法基础集训营11673845200
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/46800 \n数据来源http:/
+ /algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2023牛客寒假算法基础集训营2
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:2023牛客寒假算法基础集训营21674018000
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/46810 \n数据来源http:/
+ /algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2023牛客寒假算法基础集训营3
+DTSTART:None
+DTEND:None
+DTSTAMP:None
+UID:2023牛客寒假算法基础集训营31674190800
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/46811 \n数据来源http:/
+ /algcontest.rainng.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:「TERRA-OI」 Round1 | 年初欢乐赛
 DTSTART:2023-01-02 05:00:00
 DTEND:2023-01-02 09:00:00
 DTSTAMP:https://www.luogu.org/contest/95289 \n数据来源http://algcontes

@@ -1,0 +1,218 @@
+[
+    {
+        "source": "CodeChef",
+        "name": "Past ZCO Problems",
+        "link": "https://www.codechef.com/ZCOPRAC",
+        "contest_id": "ZCOPRAC",
+        "start_time": "2018-11-04T18:30:00+00:00",
+        "end_time": "2024-04-26T18:30:00+00:00",
+        "hash": "96d18304d8abc6b1a83314dc64d76507ac41ab61"
+    },
+    {
+        "source": "CodeChef",
+        "name": "Past INOI Problems",
+        "link": "https://www.codechef.com/INOIPRAC",
+        "contest_id": "INOIPRAC",
+        "start_time": "2019-01-04T18:30:00+00:00",
+        "end_time": "2024-06-26T18:30:00+00:00",
+        "hash": "83b3e542b7bddccb6b37362acc95cb9c7561b781"
+    },
+    {
+        "source": "CodeChef",
+        "name": "AIM ICPC - Weekly Training Series",
+        "link": "https://www.codechef.com/AIMICPC",
+        "contest_id": "AIMICPC",
+        "start_time": "2020-12-28T18:30:00+00:00",
+        "end_time": "2023-06-16T18:30:00+00:00",
+        "hash": "5aeb0900fd478f5e60e8cdfae2b4e250c9433a7a"
+    },
+    {
+        "source": "AtCoder",
+        "name": "Hitachi Hokudai Lab. & Hokkaido University Contest 2022",
+        "link": "https://atcoder.jp/contests/hokudai-hitachi2022",
+        "contest_id": "hokudai-hitachi2022",
+        "start_time": "2022-12-22T15:00:00+00:00",
+        "end_time": "2023-01-22T14:59:00+00:00",
+        "hash": "5f534918b63bc4a2bd61e411bf9dc4a0879efef9"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Hello 2023",
+        "link": "https://codeforces.com/contestRegistration/1779",
+        "contest_id": "1779",
+        "start_time": "2023-01-03T14:35:00+00:00",
+        "end_time": "2023-01-03T17:05:00+00:00",
+        "hash": "71ae1d5642dc7dc2344cf91586be8019050c2f65"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round #842 (Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1768",
+        "start_time": "2023-01-05T14:35:00+00:00",
+        "end_time": "2023-01-05T16:35:00+00:00",
+        "hash": "f232c28ab10486daad863535161f9f88f1a258f0"
+    },
+    {
+        "source": "牛客竞赛",
+        "name": "牛客小白月赛65",
+        "link": "https://ac.nowcoder.com/acm/contest/49888",
+        "contest_id": "49888",
+        "start_time": "2023-01-06T11:00:00+00:00",
+        "end_time": "2023-01-06T13:00:00+00:00",
+        "hash": "7e0ccd1bc415d9b0e52f657a1e111e3b9ca47622"
+    },
+    {
+        "source": "洛谷",
+        "name": "JRKSJ 的比赛 Round 7 Div.2",
+        "link": "https://www.luogu.org/contest/93335",
+        "contest_id": "93335",
+        "start_time": "2023-01-07T05:00:00+00:00",
+        "end_time": "2023-01-07T10:30:00+00:00",
+        "hash": "f536f5d6069e96dd6d6aea120fc27d95ad4a64e5"
+    },
+    {
+        "source": "洛谷",
+        "name": "JRKSJ 的比赛 Round 7 Div.1",
+        "link": "https://www.luogu.org/contest/93334",
+        "contest_id": "93334",
+        "start_time": "2023-01-07T05:00:00+00:00",
+        "end_time": "2023-01-07T10:30:00+00:00",
+        "hash": "3d82fdfbdcef2f1d429a76e276e3aa826fb05984"
+    },
+    {
+        "source": "LeetCode",
+        "name": "Biweekly Contest 95",
+        "link": "https://leetcode.com/contest/biweekly-contest-95",
+        "contest_id": "Biweekly Contest 95",
+        "start_time": "2023-01-07T14:30:00+00:00",
+        "end_time": "2023-01-07T16:00:00+00:00",
+        "hash": "ce2238e89d5684eeaefaeec40cb6456dd8be74e7"
+    },
+    {
+        "source": "LeetCode",
+        "name": "Weekly Contest 327",
+        "link": "https://leetcode.com/contest/weekly-contest-327",
+        "contest_id": "Weekly Contest 327",
+        "start_time": "2023-01-08T02:30:00+00:00",
+        "end_time": "2023-01-08T04:00:00+00:00",
+        "hash": "eae314147b15765f4e2a47bb5d8cd183e8672456"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Educational Codeforces Round 141 (Rated for Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1783",
+        "start_time": "2023-01-08T14:35:00+00:00",
+        "end_time": "2023-01-08T16:35:00+00:00",
+        "hash": "46523185cbb9a49543d7c24de1d1e2bb3e2db144"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1775",
+        "start_time": "2023-01-10T11:05:00+00:00",
+        "end_time": "2023-01-10T13:05:00+00:00",
+        "hash": "8a54d2a562d130eafbef05bf2b7454a34042a899"
+    },
+    {
+        "source": "洛谷",
+        "name": "【LGR-(-17)】洛谷入门赛 #8",
+        "link": "https://www.luogu.org/contest/96739",
+        "contest_id": "96739",
+        "start_time": "2023-01-13T11:00:00+00:00",
+        "end_time": "2023-01-13T13:00:00+00:00",
+        "hash": "53a9d828907cb33641012d3542ce528e8cfc6bfc"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 1 + Div. 2, based on VK Cup 2022 - Elimination Round)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1782",
+        "start_time": "2023-01-15T12:05:00+00:00",
+        "end_time": "2023-01-15T15:05:00+00:00",
+        "hash": "e8f5f0d1eb30423e68c0de45cf3e50b43d14be1b"
+    },
+    {
+        "source": "牛客竞赛",
+        "name": "2023牛客寒假算法基础集训营1",
+        "link": "https://ac.nowcoder.com/acm/contest/46800",
+        "contest_id": "46800",
+        "start_time": "2023-01-16T05:00:00+00:00",
+        "end_time": "2023-01-16T10:00:00+00:00",
+        "hash": "6427f7baa1324b294d5748d866f0d960a27f7f4d"
+    },
+    {
+        "source": "牛客竞赛",
+        "name": "2023牛客寒假算法基础集训营2",
+        "link": "https://ac.nowcoder.com/acm/contest/46810",
+        "contest_id": "46810",
+        "start_time": "2023-01-18T05:00:00+00:00",
+        "end_time": "2023-01-18T10:00:00+00:00",
+        "hash": "0c5f371f6c329e296f2b10488f0a01c523c2ae01"
+    },
+    {
+        "source": "牛客竞赛",
+        "name": "2023牛客寒假算法基础集训营3",
+        "link": "https://ac.nowcoder.com/acm/contest/46811",
+        "contest_id": "46811",
+        "start_time": "2023-01-20T05:00:00+00:00",
+        "end_time": "2023-01-20T10:00:00+00:00",
+        "hash": "fa22a125d236833ca4e8c1a1bd5bffa873076203"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1777",
+        "start_time": "2023-01-21T14:35:00+00:00",
+        "end_time": "2023-01-21T16:35:00+00:00",
+        "hash": "fd9342384412a58f485e43a3371625dcadaea603"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1780",
+        "start_time": "2023-01-25T14:35:00+00:00",
+        "end_time": "2023-01-25T16:35:00+00:00",
+        "hash": "a1f27e403993917d702b43a683dbcd00693bcb17"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 2)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1778",
+        "start_time": "2023-02-01T14:35:00+00:00",
+        "end_time": "2023-02-01T16:35:00+00:00",
+        "hash": "dcfb86ab6ddbdc6572ae9ce15d42d9476b73ba25"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 1, based on VK Cup 2022 - Final Round)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1785",
+        "start_time": "2023-02-05T12:05:00+00:00",
+        "end_time": "2023-02-05T15:05:00+00:00",
+        "hash": "783179e8b8f65f728254c2f88decd9b1bdfe0a0f"
+    },
+    {
+        "source": "Codeforces",
+        "name": "Codeforces Round (Div. 2, based on VK Cup 2022 - Final Round)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1786",
+        "start_time": "2023-02-05T12:05:00+00:00",
+        "end_time": "2023-02-05T15:05:00+00:00",
+        "hash": "301aa59bfe66389479c478edb4670de728e1f149"
+    },
+    {
+        "source": "Codeforces",
+        "name": "SWERC 2022-2023 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+        "link": "https://codeforces.com/contests",
+        "contest_id": "1776",
+        "start_time": "2023-02-19T11:05:00+00:00",
+        "end_time": "2023-02-19T16:05:00+00:00",
+        "hash": "177f5ea9b11df0581544c40684f6f35b2c86d948"
+    }
+]

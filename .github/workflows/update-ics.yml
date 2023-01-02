@@ -29,7 +29,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Update ICS file
       run: |
-        python ICSVersion/GenICS.py --tg_bot_token=${{ secrets.tg_bot_token }} --tg_chat_id=${{ secrets.tg_chat_id }} 
+        python ICSVersion/GenICS.py --tg_bot_token=${{ secrets.TG_BOT_TOKEN }} --tg_chat_id=${{ secrets.TG_CHAT_ID }} 
         
     - name: Run safe dir
       run: |

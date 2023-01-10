@@ -174,7 +174,7 @@ def main(argv):
             tg_chat_id = arg
     if info_source == "sdutacm":
         try:
-            ics = open("./ICSVersion/ContestsAlg.ics")
+            ics = open("./ICSVersion/ContestsSdutacm.ics")
             cal = Calendar.from_ical(ics.read())
         except FileNotFoundError:
             cal = None
@@ -183,7 +183,7 @@ def main(argv):
         )
     else:
         try:
-            ics = open("./ICSVersion/ContestsSdutacm.ics")
+            ics = open("./ICSVersion/ContestsAlg.ics")
             cal = Calendar.from_ical(ics.read())
         except FileNotFoundError:
             cal = None

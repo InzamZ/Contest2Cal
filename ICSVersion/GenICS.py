@@ -4,7 +4,7 @@ import logging
 import sys
 import requests
 from icalendar import Calendar, Event
-from datetime import datetime
+from datetime import datetime,timedelta
 
 
 def GenerateICSFromAlg(
@@ -120,6 +120,8 @@ def GenerateICSFromSdutacm(
         contest_end_time = datetime.fromisoformat(contest["end_time"])
         contest_stamp = datetime.utcnow()
         contest_description = f'{contest["link"]} \n数据来源https://contests.sdutacm.cn/'
+        if contest_end_time - contest_start_time > timedelta(hours=12):
+            continue
         event = Event()
         event.add("uid", contest_uid)
         event.add("summary", contest_summary)

@@ -114,7 +114,7 @@ def GenerateICSFromSdutacm(
     }
     """
     for contest in contest_list:
-        contest_uid = contest["hash"]
+        contest_uid = contest["source"] + contest["contest_id"]
         contest_summary = f'{contest["source"]}: {contest["name"]}'
         contest_start_time = datetime.fromisoformat(contest["start_time"])
         contest_end_time = datetime.fromisoformat(contest["end_time"])

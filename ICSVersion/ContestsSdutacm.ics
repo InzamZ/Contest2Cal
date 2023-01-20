@@ -342,4 +342,14 @@ UID:Codeforces1788
 DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
  .sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round #850 (Div. 2\, based on VK Cup 2022 -
+  Final Round)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230205T120500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230205T150500Z
+DTSTAMP;VALUE=DATE-TIME:20230120T120709Z
+UID:Codeforces1786
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

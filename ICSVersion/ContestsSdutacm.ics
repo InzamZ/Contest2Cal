@@ -407,4 +407,13 @@ UID:AtCoderagc061
 DESCRIPTION:https://atcoder.jp/contests/agc061 \n数据来源https://conte
  sts.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: AtCoder Regular Contest 156
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230225T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230225T140000Z
+DTSTAMP;VALUE=DATE-TIME:20230124T003715Z
+UID:AtCoderarc156
+DESCRIPTION:https://atcoder.jp/contests/arc156 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

@@ -416,4 +416,14 @@ UID:AtCoderarc156
 DESCRIPTION:https://atcoder.jp/contests/arc156 \n数据来源https://conte
  sts.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: Ｓｋｙ Inc\, Programming Contest 2023（AtCoder Beginn
+ er Contest 289）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230211T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230211T134000Z
+DTSTAMP;VALUE=DATE-TIME:20230125T003233Z
+UID:AtCoderabc289
+DESCRIPTION:https://atcoder.jp/contests/abc289 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

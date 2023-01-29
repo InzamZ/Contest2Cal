@@ -464,4 +464,13 @@ UID:AtCoderabc290
 DESCRIPTION:https://atcoder.jp/contests/abc290 \n数据来源https://conte
  sts.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 牛客小白月赛66
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230210T110000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230210T130000Z
+DTSTAMP;VALUE=DATE-TIME:20230129T003749Z
+UID:牛客竞赛51137
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/51137 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

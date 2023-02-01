@@ -500,4 +500,13 @@ UID:LeetCodeWeekly Contest 331
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-331 \n数据来源
  https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 牛客练习赛108
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230216T110000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230216T133000Z
+DTSTAMP;VALUE=DATE-TIME:20230201T003839Z
+UID:牛客竞赛51208
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/51208 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

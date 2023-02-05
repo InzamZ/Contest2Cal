@@ -546,4 +546,13 @@ UID:洛谷100045
 DESCRIPTION:https://www.luogu.org/contest/100045 \n数据来源https://con
  tests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Biweekly Contest 98
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230218T143000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230218T160000Z
+DTSTAMP;VALUE=DATE-TIME:20230205T003718Z
+UID:LeetCodeBiweekly Contest 98
+DESCRIPTION:https://leetcode.com/contest/biweekly-contest-98 \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

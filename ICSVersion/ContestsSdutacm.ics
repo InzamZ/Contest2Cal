@@ -639,4 +639,13 @@ UID:AtCoderarc157
 DESCRIPTION:https://atcoder.jp/contests/arc157 \n数据来源https://conte
  sts.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 333
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230219T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230219T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230213T003617Z
+UID:LeetCodeWeekly Contest 333
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-333 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

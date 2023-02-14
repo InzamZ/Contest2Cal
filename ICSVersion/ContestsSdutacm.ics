@@ -648,4 +648,13 @@ UID:LeetCodeWeekly Contest 333
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-333 \n数据来源
  https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 牛客2023年情人节比赛
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230214T110000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230214T130000Z
+DTSTAMP;VALUE=DATE-TIME:20230214T003515Z
+UID:牛客竞赛51663
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/51663 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

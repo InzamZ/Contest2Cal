@@ -657,4 +657,13 @@ UID:牛客竞赛51663
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/51663 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round (Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230317T140500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230317T160500Z
+DTSTAMP;VALUE=DATE-TIME:20230215T003447Z
+UID:Codeforces1797
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

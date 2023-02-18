@@ -684,4 +684,13 @@ UID:牛客竞赛51727
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/51727 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: Toyota Programming Contest 2023 Spring Final
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230318T010000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230318T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230218T003520Z
+UID:AtCodertoyota2023spring-final
+DESCRIPTION:https://atcoder.jp/contests/toyota2023spring-final \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

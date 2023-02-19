@@ -693,4 +693,22 @@ UID:AtCodertoyota2023spring-final
 DESCRIPTION:https://atcoder.jp/contests/toyota2023spring-final \n数据来
  源https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:洛谷: 「IZOI」 Round 1
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230225T060000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230225T100000Z
+DTSTAMP;VALUE=DATE-TIME:20230219T003513Z
+UID:洛谷100037
+DESCRIPTION:https://www.luogu.org/contest/100037 \n数据来源https://con
+ tests.sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Biweekly Contest 99
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230304T143000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230304T160000Z
+DTSTAMP;VALUE=DATE-TIME:20230219T003513Z
+UID:LeetCodeBiweekly Contest 99
+DESCRIPTION:https://leetcode.com/contest/biweekly-contest-99 \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

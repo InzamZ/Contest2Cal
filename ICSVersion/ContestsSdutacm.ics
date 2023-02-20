@@ -711,4 +711,13 @@ UID:LeetCodeBiweekly Contest 99
 DESCRIPTION:https://leetcode.com/contest/biweekly-contest-99 \n数据来
  源https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 334
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230226T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230226T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230220T003706Z
+UID:LeetCodeWeekly Contest 334
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-334 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

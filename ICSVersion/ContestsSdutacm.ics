@@ -729,4 +729,13 @@ UID:Codeforces1798
 DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
  .sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round #854 (Div. 1 + Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230227T143500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230227T173500Z
+DTSTAMP;VALUE=DATE-TIME:20230222T003409Z
+UID:Codeforces1799
+DESCRIPTION:https://codeforces.com/contestRegistration/1799 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

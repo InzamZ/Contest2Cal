@@ -829,4 +829,13 @@ UID:牛客竞赛52244
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/52244 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: AtCoder Regular Contest 158
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230312T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230312T140000Z
+DTSTAMP;VALUE=DATE-TIME:20230301T003928Z
+UID:AtCoderarc158
+DESCRIPTION:https://atcoder.jp/contests/arc158 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

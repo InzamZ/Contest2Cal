@@ -920,4 +920,13 @@ UID:牛客竞赛52441
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/52441 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Biweekly Contest 100
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230318T143000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230318T160000Z
+DTSTAMP;VALUE=DATE-TIME:20230305T003904Z
+UID:LeetCodeBiweekly Contest 100
+DESCRIPTION:https://leetcode.com/contest/biweekly-contest-100 \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

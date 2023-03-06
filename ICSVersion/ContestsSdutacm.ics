@@ -929,4 +929,13 @@ UID:LeetCodeBiweekly Contest 100
 DESCRIPTION:https://leetcode.com/contest/biweekly-contest-100 \n数据来
  源https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 336
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230312T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230312T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230306T003602Z
+UID:LeetCodeWeekly Contest 336
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-336 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

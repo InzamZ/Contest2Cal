@@ -938,4 +938,22 @@ UID:LeetCodeWeekly Contest 336
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-336 \n数据来源
  https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Private Contest 122
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230313T003000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230313T033000Z
+DTSTAMP;VALUE=DATE-TIME:20230308T003733Z
+UID:LeetCodePrivate Contest 122
+DESCRIPTION:https://leetcode.com/contest/private-contest-122 \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round (Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230329T090500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230329T110500Z
+DTSTAMP;VALUE=DATE-TIME:20230308T003733Z
+UID:Codeforces1808
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

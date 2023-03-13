@@ -1003,4 +1003,13 @@ UID:洛谷103328
 DESCRIPTION:https://www.luogu.org/contest/103328 \n数据来源https://con
  tests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 337
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230319T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230319T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230313T003437Z
+UID:LeetCodeWeekly Contest 337
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-337 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

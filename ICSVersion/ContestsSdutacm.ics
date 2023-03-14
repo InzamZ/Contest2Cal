@@ -1012,4 +1012,22 @@ UID:LeetCodeWeekly Contest 337
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-337 \n数据来源
  https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Educational Codeforces Round 145 (Rated for Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230320T143500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230320T163500Z
+DTSTAMP;VALUE=DATE-TIME:20230314T003103Z
+UID:Codeforces1809
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round (Div. 1 + Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230331T143500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230331T163500Z
+DTSTAMP;VALUE=DATE-TIME:20230314T003103Z
+UID:Codeforces1810
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

@@ -1087,4 +1087,13 @@ UID:AtCoderahc020
 DESCRIPTION:https://atcoder.jp/contests/ahc020 \n数据来源https://conte
  sts.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Biweekly Contest 101
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230401T143000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230401T160000Z
+DTSTAMP;VALUE=DATE-TIME:20230319T003705Z
+UID:LeetCodeBiweekly Contest 101
+DESCRIPTION:https://leetcode.com/contest/biweekly-contest-101 \n数据来
+ 源https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

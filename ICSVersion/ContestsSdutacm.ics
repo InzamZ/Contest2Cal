@@ -1105,4 +1105,14 @@ UID:LeetCodeWeekly Contest 338
 DESCRIPTION:https://leetcode.com/contest/weekly-contest-338 \n数据来源
  https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 中石大（北京）&ldquo\;骏码杯&rdquo\;程序
+ 设计竞赛（同步赛）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230325T043000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230325T083000Z
+DTSTAMP;VALUE=DATE-TIME:20230322T003058Z
+UID:牛客竞赛53485
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/53485 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

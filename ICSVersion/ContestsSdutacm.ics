@@ -1115,4 +1115,14 @@ UID:牛客竞赛53485
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/53485 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 广州大学第十七届ACM大学生程序设计竞
+ 赛（同步赛）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230326T050000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230326T100000Z
+DTSTAMP;VALUE=DATE-TIME:20230323T003315Z
+UID:牛客竞赛53967
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/53967 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

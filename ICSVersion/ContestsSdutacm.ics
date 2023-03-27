@@ -1152,4 +1152,13 @@ UID:Codeforces1811
 DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
  .sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 339
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230402T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230402T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230327T003135Z
+UID:LeetCodeWeekly Contest 339
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-339 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

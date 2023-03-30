@@ -1190,4 +1190,14 @@ UID:洛谷104457
 DESCRIPTION:https://www.luogu.org/contest/104457 \n数据来源https://con
  tests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 2023年&ldquo\;华为&rdquo\;杯广东工业大学
+ 第十七届程序设计竞赛（同步赛）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230401T060000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230401T100000Z
+DTSTAMP;VALUE=DATE-TIME:20230330T003454Z
+UID:牛客竞赛54633
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/54633 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

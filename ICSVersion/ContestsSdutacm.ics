@@ -1200,4 +1200,14 @@ UID:牛客竞赛54633
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/54633 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 华中农业大学2023年十二届程序设计竞赛
+ （同步赛）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230415T020000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230415T070000Z
+DTSTAMP;VALUE=DATE-TIME:20230331T003302Z
+UID:牛客竞赛54484
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/54484 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

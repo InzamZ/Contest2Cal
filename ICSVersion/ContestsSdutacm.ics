@@ -1320,4 +1320,14 @@ UID:洛谷96046
 DESCRIPTION:https://www.luogu.org/contest/96046 \n数据来源https://cont
  ests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: TOYOTA MOTOR CORPORATION Programming Contest 2023#1 (AtCo
+ der Beginner Contest 298)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230415T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230415T134000Z
+DTSTAMP;VALUE=DATE-TIME:20230405T002708Z
+UID:AtCoderabc298
+DESCRIPTION:https://atcoder.jp/contests/abc298 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

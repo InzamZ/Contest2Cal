@@ -1682,4 +1682,22 @@ UID:Codeforces1826
 DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
  .sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round (Div. 2)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230514T143500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230514T163500Z
+DTSTAMP;VALUE=DATE-TIME:20230426T003212Z
+UID:Codeforces1828
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codeforces: Codeforces Round (Div. 1)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230514T143500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230514T163500Z
+DTSTAMP;VALUE=DATE-TIME:20230426T003212Z
+UID:Codeforces1827
+DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
+ .sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

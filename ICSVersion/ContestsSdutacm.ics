@@ -1700,4 +1700,13 @@ UID:Codeforces1827
 DESCRIPTION:https://codeforces.com/contests \n数据来源https://contests
  .sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:牛客竞赛: 牛客小白月赛72
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230512T110000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230512T130000Z
+DTSTAMP;VALUE=DATE-TIME:20230427T003331Z
+UID:牛客竞赛56825
+DESCRIPTION:https://ac.nowcoder.com/acm/contest/56825 \n数据来源https:
+ //contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

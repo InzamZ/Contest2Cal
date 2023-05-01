@@ -1718,4 +1718,32 @@ UID:LeetCodeBiweekly Contest 104
 DESCRIPTION:https://leetcode.com/contest/biweekly-contest-104 \n数据来
  源https://contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 344
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230507T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230507T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230501T003303Z
+UID:LeetCodeWeekly Contest 344
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-344 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: 日鉄ソリューションズプログラミングコン
+ テスト2023（AtCoder Beginner Contest 303）
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230527T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230527T134000Z
+DTSTAMP;VALUE=DATE-TIME:20230501T003303Z
+UID:AtCoderabc303
+DESCRIPTION:https://atcoder.jp/contests/abc303 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AtCoder: AtCoder Regular Contest 161
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230528T120000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230528T140000Z
+DTSTAMP;VALUE=DATE-TIME:20230501T003303Z
+UID:AtCoderarc161
+DESCRIPTION:https://atcoder.jp/contests/arc161 \n数据来源https://conte
+ sts.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR

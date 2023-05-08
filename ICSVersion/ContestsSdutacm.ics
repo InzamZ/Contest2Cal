@@ -1910,4 +1910,13 @@ UID:牛客竞赛56866
 DESCRIPTION:https://ac.nowcoder.com/acm/contest/56866 \n数据来源https:
  //contests.sdutacm.cn/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LeetCode: Weekly Contest 345
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20230514T023000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20230514T040000Z
+DTSTAMP;VALUE=DATE-TIME:20230508T003034Z
+UID:LeetCodeWeekly Contest 345
+DESCRIPTION:https://leetcode.com/contest/weekly-contest-345 \n数据来源
+ https://contests.sdutacm.cn/
+END:VEVENT
 END:VCALENDAR
